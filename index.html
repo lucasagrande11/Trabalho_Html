@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho - Ferramentas de Desenvolvimento Web</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <header class="header">
+        <nav class="menu">
+            <a href="#sobremim">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section id="sobremim" class="section">
+            <h2 class="section-title">Sobre Mim</h2>
+            <p>Olá! Me chamo Lucas Gianisella Casagrande, sou aluno da Uninter desde Março de 2025. Sou um cara muito tranquilo, de bem com a vida e sempre querendo aprender coisas novas, esforçado e com vontade de evoluir cada dia mais. Além de atuar na área da tecnologia, tenho como paixão os esportes, cresci jogando basquete, e jogo até hoje no time da minha cidade, então tenho uma ótima mentalidade, reconhecendo erros, aprendendo e sabendo onde concertar.</p>
+            <div class="info-pessoal">
+                <p><strong>Idade:</strong> 21 anos</p>
+                <p><strong>Interesses:</strong> Ciência de dados, Python, JavaScript, Inovação, Esportes.</p>
+            </div>
+        </section>
+
+        <section id="formacao" class="section dark-bg">
+            <h2 class="section-title">Formação</h2>
+            <div class="formacao-item">
+                <h3>Cursando Tecnologo em Ciência de Dados</h3>
+                <p>UNINTER | 03/2025 - Presente.</p>
+                <p>Foco em desenvolver habilidades necesssárias para atuar na área de tecnologia.</p>
+            </div>
+            <div class="formacao-item">
+                <h3>Curso de Inglês Avançado</h3>
+                <p>Escola Academus | 2020</p>
+            </div>
+             </section>
+
+        <section id="portfolio" class="section">
+            <h2 class="section-title">Portfólio</h2>
+            <p>Meu projeto mais recente da Uninter:</p>
+            <ul class="portfolio-list">
+                <li><a href="https://youtube.com/shorts/J6Y2ykE-jzc?si=aYFOAXrPFeKvMU8-" target="_blank">Projeto: Atividade Extensionista, Desenvolvendo um Chatbot para uma loja de roupas e acessórios femininos.</a></li>
+                </ul>
+        </section>
+
+        <section id="contato" class="section dark-bg">
+            <h2 class="section-title">Contato</h2>
+            <form id="contactForm" class="contact-form">
+                <p id="feedbackMessage" class="feedback-message"></p>
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Lucas Gianisella Casagrande. RU: 5313548.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
